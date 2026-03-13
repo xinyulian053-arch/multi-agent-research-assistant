@@ -4,8 +4,15 @@
 一个基于多代理系统的自动化研究报告生成工具。  
 用户只需输入研究主题，系统就会自动规划任务、搜索论文、阅读内容、分析总结并撰写完整报告，支持 Markdown 和 PDF 输出。
 
-![Demo Screenshot](https://via.placeholder.com/800x400?text=Streamlit+App+Screenshot)  
-*(建议替换为真实的截图：Streamlit 界面运行时的样子)*
+初始界面:
+
+![主界面 - 输入主题并生成报告](images/screenshot-main.png)
+
+完成后的报告预览与下载：
+
+![报告生成完成 - 支持 Markdown 和 PDF 下载](images/screenshot-result.png.png)
+
+*(以上为实际应用运行截图)*
 
 ## 主要功能
 
