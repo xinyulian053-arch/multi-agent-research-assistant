@@ -117,7 +117,6 @@ multi-agent-research-assistant/
 ## 未来计划
 
 - 支持更多代理（如图片/图表生成代理）
-- 添加参考文献列表与链接
 - 支持导出 Word / LaTeX
 - 集成更多搜索源（arXiv API、Google Scholar 等）
 - 多语言报告生成优化
