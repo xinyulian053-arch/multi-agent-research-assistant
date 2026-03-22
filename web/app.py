@@ -51,7 +51,7 @@ if st.button("生成报告", type="primary", use_container_width=True):
                 summary = analyze(contents)
 
                 st.info("5. 撰写完整报告...")
-                report = write_report(summary, topic)
+                report = write_report(summary, topic, papers)
 
                 status.update(label="报告生成完成！正在保存文件...", state="complete")
 

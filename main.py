@@ -21,7 +21,7 @@ def main():
     summary = analyze(contents)
     
     print("Writing report...")
-    report = write_report(summary, topic)
+    report = write_report(summary, topic, papers)
     
     # 保存 Markdown
     save_report(report, topic)
