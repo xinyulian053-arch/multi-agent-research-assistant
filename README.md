@@ -10,7 +10,7 @@
 
 完成后的报告预览与下载：
 
-![报告生成完成 - 支持 Markdown 和 PDF 下载](images/screenshot-result.png.png)
+![报告生成完成 - 支持 Markdown 和 PDF 下载](images/screenshot-result.png..png)
 
 *(以上为实际应用运行截图)*
 
