@@ -2,7 +2,7 @@
 from langchain_deepseek import ChatDeepSeek
 
 llm = ChatDeepSeek(
-    api_key="sk-c9621c51ed704a9daf3309217ea0f046",  # 替换为你的 Key
+    api_key="sk-xxxxxxxxxxxxxxxxxxxx",  # 替换为你的 Key
     model="deepseek-chat",                          # 必填
     model_kwargs={}                                  # 可选
 )
