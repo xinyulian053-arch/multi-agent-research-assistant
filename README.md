@@ -128,5 +128,5 @@ multi-agent-research-assistant/
 
 ## License
 
-MIT License
+[MIT](LICENSE)
 
