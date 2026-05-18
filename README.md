@@ -127,7 +127,5 @@ multi-agent-research-assistant/
 如果你在使用中遇到问题，或有功能建议，请直接在 Issues 中提出。
 觉得有用可以给作者点个star喔,感谢感谢
 
-## License
 
-[MIT](LICENSE)
 
