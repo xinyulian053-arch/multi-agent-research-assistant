@@ -71,7 +71,7 @@ const selectedProvider = computed(() => providerDefaults[apiSettings.provider]);
 
 onMounted(async () => {
   restoreApiSettings();
-  await refreshJobs();
+  await refreshJobs({ selectLatest: true });
 });
 
 onUnmounted(() => {
@@ -119,10 +119,13 @@ function persistApiSettings() {
   );
 }
 
-async function refreshJobs() {
+async function refreshJobs(options = {}) {
   try {
     const result = await listReports();
     jobs.value = result.jobs || [];
+    if (options.selectLatest && !job.value && jobs.value.length) {
+      await openJob(jobs.value[0].id);
+    }
   } catch {
     jobs.value = [];
   }
